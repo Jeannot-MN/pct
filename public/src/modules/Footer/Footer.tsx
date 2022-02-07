@@ -37,10 +37,10 @@ export function Footer() {
                                 cursor: "pointer",
                             },
                         }}
-                        href="https://www.google.com/maps/search/77+Meintjies+St,+Sunnyside,+Pretoria,+0002,+South+Africa/@-25.7499271,28.1981422,17z/data=!3m1!4b1"
+                        href="https://www.google.com/maps/search/2+Robert+Sobukwe+St,+Sunnyside,+Pretoria,+0002,+South+Africa/@-25.7499271,28.1981422,17z/data=!3m1!4b1"
                         target={"_blank"}
                     >
-                        77 Meintjies St, Sunnyside, Pretoria, 0002, South Africa
+                        2 Robert Sobukwe, Sunnyside, Pretoria, 0002, South Africa
                     </Link>
                 </Box>
 

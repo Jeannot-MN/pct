@@ -32,7 +32,7 @@ export function MobileContactUs() {
                                 title="Location"
                                 width="350"
                                 height="200"
-                                src="https://maps.google.com/maps?q=77%20Meintjies%20St,%20Sunnyside,%20Pretoria,%200002,%20South%20Africa&t=&z=13&ie=UTF8&iwloc=&output=embed"
+                                src="https://maps.google.com/maps?q=2%20Robert%20Sobukwe%20St,%20Sunnyside,%20Pretoria,%200002,%20South%20Africa&t=&z=13&ie=UTF8&iwloc=&output=embed"
                             />
                         </Box>
                         <Box
@@ -61,7 +61,7 @@ export function MobileContactUs() {
                                         textAlign: 'left',
                                     }}
                                 >
-                                    77 Meintjies St, Sunnyside
+                                    2 Robert Sobukwe, Sunnyside
                                 </Typography>
 
                                 <Typography
