@@ -27,7 +27,7 @@ export function Footer() {
                 }}
             >
 
-                <Box>
+                <Box display='flex'>
                     <Link
                         sx={{
                             fontFamily: 'Poppins',
