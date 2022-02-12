@@ -60,7 +60,7 @@ export function Footer() {
 
                 <Box
                     display='flex'
-                    justifyContent = 'center'
+                    justifyContent='center'
                 >
                     <Link
                         sx={{

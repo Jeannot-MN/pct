@@ -47,7 +47,7 @@ export function HomePage() {
                                     fontWeight: 'bold'
                                 }}
                             >
-                                Greeting to you all in the Holy name of our Lord Jesus Christ
+                                Greetings to you all in the Holy name of our Lord Jesus Christ
                             </Typography>
                         </Box>
                         <Box>
