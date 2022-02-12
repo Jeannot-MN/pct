@@ -216,6 +216,31 @@ function MobileHeader({ pageName }: Props) {
                     </Typography>
                 </Box>
             </Box>
+            <Box display="flex" justifyContent="flex-end" width="100%">
+                <Box
+                    className="Content"
+                    sx={{
+                        display: 'flex',
+                        justifyContent: 'center',
+                        alignItems: 'center',
+                        padding: '10px'
+                    }}
+                >
+                    <Typography
+                        sx={{
+                            fontFamily: 'Poppins',
+                            color: 'white',
+                            fontSize: '14px',
+                            fontWeight: 'bold',
+                            fontStyle: 'italic',
+                            textAlign: 'center'
+                        }}
+                    >
+                        "...Gather the people to me, that I may let them hear my words, ..." Deuteronomy 4:10
+                    </Typography>
+                </Box>
+
+            </Box>
         </Box>
     );
 }

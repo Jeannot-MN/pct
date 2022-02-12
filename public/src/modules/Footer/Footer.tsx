@@ -15,7 +15,7 @@ export function Footer() {
                 height: "150px",
                 position: 'relative',
                 bottom: '0',
-                marginTop: isDesktop ? '180px' : '90px',
+                marginTop: isDesktop ? '100px' : '60px',
                 backgroundColor: 'rgba(54,33,15,0.7)'
             }}
         >

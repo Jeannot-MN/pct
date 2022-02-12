@@ -55,8 +55,7 @@ function Header({ pageName, activeTab }: Props) {
                     justifyContent: 'space-between',
                     width: 'calc(100% - 86px)',
                     height: '52px',
-                    padding: '29px 43px',
-                    position: 'fixed'
+                    padding: '29px 43px'
                 }}
             >
                 <Box>
@@ -97,7 +96,7 @@ function Header({ pageName, activeTab }: Props) {
                                         '&:hover': {
                                             cursor: "pointer",
                                         },
-                                        borderBottom: `${index === activeTab ? "1px solid white": ""}`
+                                        borderBottom: `${index === activeTab ? "1px solid white" : ""}`
                                     }}
                                     onClick={() => {
                                         navigate(tab.route)
@@ -116,6 +115,7 @@ function Header({ pageName, activeTab }: Props) {
                 sx={{
                     display: 'flex',
                     justifyContent: 'center',
+                    flexDirection: 'column',
                     height: '550px',
                     margin: '0px 72px',
                     padding: '95px 43px',
@@ -141,6 +141,32 @@ function Header({ pageName, activeTab }: Props) {
                         {pageName}
                     </Typography>
                 </Box>
+            </Box>
+
+
+            <Box display="flex" justifyContent="flex-end" width="100%">
+                <Box
+                    className="Content"
+                    sx={{
+                        display: 'flex',
+                        justifyContent: 'center',
+                        alignItems: 'center',
+                        padding: '10px'
+                    }}
+                >
+                    <Typography
+                        sx={{
+                            fontFamily: 'Poppins',
+                            color: 'white',
+                            fontSize: '20px',
+                            fontWeight: 'bold',
+                            fontStyle: 'italic'
+                        }}
+                    >
+                        "...Gather the people to me, that I may let them hear my words, ..." Deuteronomy 4:10
+                    </Typography>
+                </Box>
+
             </Box>
         </Box>
     );
