@@ -1,5 +1,6 @@
 import { Box, Link, Typography } from "@mui/material";
 import { useScreenSize } from "../../hooks/useScreenSize";
+import YouTubeIcon from '@mui/icons-material/YouTube';
 
 export function Footer() {
     const isDesktop = useScreenSize(1030);
@@ -14,7 +15,7 @@ export function Footer() {
                 height: "150px",
                 position: 'relative',
                 bottom: '0',
-                marginTop: isDesktop ? '180px': '90px',
+                marginTop: isDesktop ? '180px' : '90px',
                 backgroundColor: 'rgba(54,33,15,0.7)'
             }}
         >
@@ -57,16 +58,36 @@ export function Footer() {
                     </Typography>
                 </Box>
 
-                <Box>
-                <Typography
+                <Box
+                    display='flex'
+                    justifyContent = 'center'
+                >
+                    <Link
                         sx={{
                             fontFamily: 'Poppins',
                             color: 'white',
-                            fontSize: isDesktop ? '20px' : '14px',
+                            textAlign: 'center',
+                            '&:hover': {
+                                cursor: "pointer",
+                            },
+                        }}
+                        href="https://www.youtube.com/c/PretoriaChristianTabernacle"
+                        target={"_blank"}
+                    >
+                        <YouTubeIcon fontSize="large" />
+                    </Link>
+                </Box>
+
+                <Box>
+                    <Typography
+                        sx={{
+                            fontFamily: 'Poppins',
+                            color: 'white',
+                            fontSize: isDesktop ? '18px' : '14px',
                             textAlign: 'center',
                         }}
                     >
-                        &copy; {`${new Date().getFullYear()}`}
+                        Pretoria Christian Tabernacle &copy; {`${new Date().getFullYear()}`}
                     </Typography>
                 </Box>
             </Box>
